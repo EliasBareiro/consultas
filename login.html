@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;" charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="fiat/fashion.css">
+<title>Login</title>
+</head>
+
+<body>
+<SCRIPT  language=JavaScript> 
+function go(){
+if (document.form.password.value=='QWERTY68' && document.form.login.value=='REM'){ 
+        document.form.submit(); 
+    } 
+    else{ 
+         alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+    } 
+} 
+</SCRIPT> 
+<FORM name="form" action="HOME.HTML">
+<fieldset>
+<legend><h1>Ingreso</h1></legend>
+<div><input type="text" name="login" placeholder="USUARIO"> <br><br>
+<input type="password" name="password" placeholder="CONTRASEÑA"> <br><br>
+<input type="button" onclick="go()" value="Acceder"><br>
+<p>¿No estas registrado?</p>
+<input type="button" onclick="location.href='signin.html'" value="Registrese"></div>
+</fieldset>
+</FORM> 
+</body>
+</html>

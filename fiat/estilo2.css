@@ -1,0 +1,42 @@
+body{background: black;}
+form{
+	width: 50%;
+	margin: 0 auto;}
+fieldset{
+	border: 5px solid #bb6500;
+	border-radius: 15px;}
+legend{
+	font-size: 20px;
+	color: #fff;}
+label{
+	margin-left: 180px; 
+	color: #FF5E00;
+	cursor: pointer;
+	font-size: 18px;}
+label:hover{
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;}
+input[type="text"]{
+	margin-left: 180px;
+	background: #a6ceff;
+	color: #ef6028;
+	font-size: 18px;
+	width: 250px;
+	height: 30px;}
+input[type="text"]:focus{
+	background: #d9f4f3;
+	color: #000;
+	font-size: 18px;}
+button, input[type="reset"]{
+	margin-left: 155px;
+	background: #000;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 15px;}
+button:hover, input[type="reset"]:hover{
+	background: #FF5E00;
+	color: #FFf;
+	cursor: pointer;
+	padding: 5px 15px;}								
